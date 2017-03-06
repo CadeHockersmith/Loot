@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT title, releaseDate, rating, cost, platform, genre FROM lootData";
+$sql = "SELECT title, releaseDate, rating, cost, platform, genre FROM lootData WHERE genre='platformer'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
