@@ -1,4 +1,4 @@
-CREATE TABLE lootData (title VARCHAR(50), releaseDate VARCHAR(10), rating VARCHAR(10), cost INTEGER(30), platform VARCHAR(30), genre VARCHAR(30));
+CREATE TABLE lootData (title VARCHAR(50), releaseDate VARCHAR(30), rating VARCHAR(10), cost INTEGER(30), platform VARCHAR(30), genre VARCHAR(30));
 
 INSERT INTO lootData VALUES ("Legend of Zelda, The: Ocarina of Time 3D", "June 19 2011", "E10+", 31.14, "Nintendo 3DS", "Adventure");
 
