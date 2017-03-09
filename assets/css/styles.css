@@ -1,12 +1,81 @@
+/*Loot Official Company CSS*/
+
+@font-face {
+    font-family: "Bebas Neue Book"; /*Licence can be found at https://www.fontsquirrel.com/license/bebas-neue*/
+    src: url("../fonts/regular.ttf");
+}
+
+
+body { 
+    /*Establishes styles used sitewide */ 
+    font-family: "Bebas Neue Book";
+    background: url("../img/background.png") no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+/*Begin Navigation */
+
 #mainNav {
-list-style-type: none;
-color:red;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #507dbc;
+    box-shadow: 30px 10px 5px #888888;
+    height: 20%;
 }
 
-#test{
-color:green;
+ul {
+    opacity: 1;
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0.6);
+    height: 100px;
 }
 
-p#test{
-color:green;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+li a:hover {
+    color: gold;
+}
+
+li a:visted {
+    color: white;
+}
+
+#homeLink {
+    font-size: 10px;
+}
+
+/*End Navigation */
+
+#sloganBox {
+    margin-top: 120px;
+    padding-bottom: 0;
+    font-size: 20px;
+    color: #507dbc;
+    box-shadow: 30px 10px 5px #888888;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+    color
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+a:visted {
+    color: white
 }
