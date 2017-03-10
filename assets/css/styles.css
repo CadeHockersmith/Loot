@@ -42,7 +42,7 @@ li a {
 }
 
 li a:hover {
-    color: gold; /*Better Color*/
+    color: black;
 }
 
 
@@ -52,7 +52,7 @@ a:visted {
 }
 
 #homeLink {
-    font-size: 10px; /*Not Working?*/
+    font-size: 5px; /*Not Working?*/
 }
 
 /*End Navigation */
@@ -76,6 +76,3 @@ a:visted {
 }
 
 /* End Main Banner */
-
-
-

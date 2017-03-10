@@ -49,8 +49,6 @@ img {
     background: none;
     height: 100px;
     float:left;
-    margin-top: -250px;  /*Not Optimal, fix soon?*/
-    margin-left: 450px;
     color: #507dbc;
     clear:both;
 }
@@ -70,12 +68,11 @@ button {
     box-shadow: 0px 6px 5px grey;
     cursor: pointer;
     float:left;
-    margin-top: -150px; /*Not Optimal, fix soon?*/
-    margin-left: 475px;
     font-family: "Bebas Neue Book";
 }
 
-
-
-
-
+.marginFixer {
+    margin-right: 62%;
+    margin-top: -20%;
+    float: right;
+}

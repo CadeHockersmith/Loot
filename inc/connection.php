@@ -1,18 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "lootDatabase";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+	include("login.php");
 
-/* Connecting Debugging Script
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully";
+	$conn = new mysqli($hn, $un, $pw, $dn);
 
-*/
-
-?>
+	if($conn->connect_error)
+		die("This was the error connecting: " . $conn->connect_error);
