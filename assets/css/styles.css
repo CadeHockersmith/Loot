@@ -1,4 +1,4 @@
-/*Loot Official Company CSS*/
+/*Loot Sitewide CSS*/
 
 @font-face {
     font-family: "Bebas Neue Book"; /*Licence can be found at https://www.fontsquirrel.com/license/bebas-neue*/
@@ -7,7 +7,7 @@
 
 
 body { 
-    /*Establishes styles used sitewide */ 
+    /*Establishes styles used on all elements. */ 
     font-family: "Bebas Neue Book";
     background: url("../img/background.png") no-repeat center center fixed;
     background-size: 100% 100%;
@@ -42,63 +42,40 @@ li a {
 }
 
 li a:hover {
-    color: gold;
+    color: gold; /*Better Color*/
 }
 
-li a:visted {
+
+
+a:visted {
     color: white;
 }
 
 #homeLink {
-    font-size: 10px;
+    font-size: 10px; /*Not Working?*/
 }
 
 /*End Navigation */
 
 
+/* Begin Main Banner */
+
 #sloganBox {
     margin-top: 120px;
     padding-bottom: 0;
-    font-size: 40px;
+    font-size: 60px;
     color: #507dbc;
     box-shadow: 0px 6px 5px grey;
     height: 30%;
     background: rgba(255, 255, 255, 0.6);
 }
 
-
-
-
 #subText{
     float:left;
     margin-top: -65px;
 }
 
-label {
-    display: inline-block;
-    width: 100px;
-    margin-bottom: 10px;
-}
+/* End Main Banner */
 
-a:visted {
-    color: white
-}
 
-/*Individual Product Page MAKE SEPARATE CSS*/
 
-#productBox{
-    width:100%;
-    margin-top: 120px;
-    padding-bottom: 0;
-    font-size: 40px;
-    color: #507dbc;
-    box-shadow: 0px 6px 5px grey;
-    height: 50%;
-    background: rgba(255, 255, 255, 0.6);
-    
-}
-
-img{float:left;}
-#productName{
-    font-size: 50px;
-}

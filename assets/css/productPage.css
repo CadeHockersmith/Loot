@@ -1,0 +1,81 @@
+/*Product Page Specific CSS*/
+
+body {
+    /*Establishes styles used sitewide */
+    background: none;
+    background-size: 100% 100%;
+}
+
+#mainNav {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    background-color: #e6e7ef;
+}
+
+#productBox {
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10%;
+    padding-bottom: 0;
+    font-size: 40px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    height: 50%;
+    background: rgba(255, 255, 255, 1);
+    background-color: #e6e7ef;
+}
+
+img {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#productName {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.productInfo {
+    font-size: 30px;
+    float:;
+}
+
+#productList {
+    list-style-type: disc;
+    background: none;
+    height: 100px;
+    float:left;
+    margin-top: -250px;  /*Not Optimal, fix soon?*/
+    margin-left: 450px;
+    color: #507dbc;
+    clear:both;
+}
+
+li {
+    clear: both;
+}
+
+button {
+    clear: both;
+    background-color: white;
+    border: none;
+    color: #507dbc;
+    padding: 5px 32px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 6px 5px grey;
+    cursor: pointer;
+    float:left;
+    margin-top: -150px; /*Not Optimal, fix soon?*/
+    margin-left: 475px;
+    font-family: "Bebas Neue Book";
+}
+
+
+
+
+
