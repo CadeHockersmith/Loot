@@ -2,14 +2,14 @@
 
 body {
     /*Establishes styles used sitewide */
-    background: none;
+    background: url("../img/background.png") no-repeat center center fixed;
     background-size: 100% 100%;
 }
 
 #mainNav {
     margin-top: 30px;
     font-size: 20px;
-    color: #507dbc;
+    color: red;
     box-shadow: 0px 6px 5px grey;
     background-color: #e6e7ef;
 }
@@ -41,7 +41,7 @@ img {
 
 .productInfo {
     font-size: 30px;
-    float:;
+    clear:both;
 }
 
 #productList {
@@ -49,12 +49,15 @@ img {
     background: none;
     height: 100px;
     float:left;
-    color: #507dbc;
+    color: #507dbc; /*Light Blue*/
     clear:both;
+    margin-left: 25%; /*Fix Soon*/
+    margin-top:-13%;
+    
 }
 
 li {
-    clear: both;
+    float: both;
 }
 
 button {
@@ -69,10 +72,6 @@ button {
     cursor: pointer;
     float:left;
     font-family: "Bebas Neue Book";
-}
-
-.marginFixer {
-    margin-right: 62%;
-    margin-top: -20%;
-    float: right;
+     margin-left: 25%; /*Fix Soon*/
+    margin-top:-3%;
 }

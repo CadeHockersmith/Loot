@@ -1,79 +1,28 @@
-<?php
-include("inc/connection.php");
-include("inc/output.php");
-
-
-
-
-
-?>
-
 <html>
     <head><link rel="stylesheet" href="assets/css/styles.css"></head>
 
         <body>
         
-            <nav >
-            <ul id="mainNav">
-                <li>Loot</li>
+            <nav id="mainNav">
+            <ul>
+                <li id="homeLink"><a href="index.php" style="font-size: 20em;">LØØŦ</a></li>
                  <li><a href="assets/pages/arcade.php">Arcade</a></li>
                 <li><a href="assets/pages/platformer.php">Platformer</a></li>
                 <li><a href="assets/pages/sports.php">Sports</a></li>
                 <li><a href="assets/pages/rpg.php">RPG</a></li>
+                <li><a href="assets/pages/suggest.html">Suggestions</a></li>
             </ul>
             </nav>
-        </body>
-
-</html>
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-label{display:inline-block;width:100px;margin-bottom:10px;}
-</style>
-
-
-
-</head>
-<body>
-
+            
+            
+            
+            <div id="sloganBox">
+            
+            <h1 id="mainText">LøøŦ</h1>
+            <p id="subText">One up the Competition</p> <! This is a bad slogan. Will fix soon.->
+            
+            </div>
     
-<h1>Want to suggest a game?</h1>
-<form method="post" action="process.php">
-<label>Title</label>
-<input type="text" name="title" />
-<br />
-<label>Release Date</label>
-<input type="text" name="releaseDate" />
-<br />
-<label>Rating</label>
-<input type="text" name="rating" />
-<br />
-<label>Cost</label>
-<input type="text" name="cost" />
-<br />
-<label>Platform</label>
-<input type="text" name="platform" />
-<br />
-<label>Genre</label>
-<input type="text" name="genre" />
-
-
-<br />
-<input type="submit" value="Submit Form">
-</form>
-    
-
-
 
 </body>
 </html>
-
-
-
-
-
