@@ -4,7 +4,7 @@
 
 	$userSearch = $_POST["user_search"];
 
-	$newQuery = "SELECT * FROM lootData WHERE genre = " . "\"" . Sports . "\"";
+	$newQuery = "SELECT * FROM lootData WHERE genre = " . "\"" . Sports . "\""; //Replace Sports with category
 ?>
 
 <head><link rel="stylesheet" href="../css/styles.css"><link rel="stylesheet" href="../css/productPage.css"></head>
