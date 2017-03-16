@@ -5,10 +5,10 @@ $lootdata = $conn->query($newQuery);
 		die($conn->error);
 
 
-	$lootrow = $lootdata->num_rows;
-
+$lootrow = $lootdata->num_rows;
+$repeatfix = $lootrow;
 // Begin loop that runs through datbase.
-	for($j = 0; $j < $lootrow; ++$j) {
+	for($j = 0; $j < $repeatfix; ++$j) {
 
 		$lootdata->data_seek($j);
 		$lootrow = $lootdata->fetch_array(MYSQLI_ASSOC);
