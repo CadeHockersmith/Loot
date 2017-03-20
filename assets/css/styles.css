@@ -42,7 +42,7 @@ li a {
 }
 
 li a:hover {
-    color: red;
+    color: black;
 }
 
 
@@ -51,8 +51,9 @@ a:visted {
     color: white;
 }
 
-#homeLink {
-    font-size: 5px; /*Not Working?*/
+
+#cartLink {
+    color: green; /*Not Working?*/
 }
 
 /*End Navigation */
@@ -76,3 +77,18 @@ a:visted {
 }
 
 /* End Main Banner */
+
+#footer{
+     margin-top: 10%;
+    padding-bottom: 0;
+    font-size: 50px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    background: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
